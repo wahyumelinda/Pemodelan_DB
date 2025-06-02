@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 from sklearn.preprocessing import LabelEncoder
 # -------------------- KONFIGURASI --------------------
-st.set_page_config(page_title="👨‍🔧 Rekomendasi Teknisi", layout="wide")
+st.set_page_config(page_title="Rekomendasi Teknisi", page_icon="👨‍🔧", layout="wide")
 st.markdown(
         "<div style='background-color: #1e3a8a; padding: 1.5rem; border-radius: 10px; text-align: center;'>"
         "<h1 style='color: white;'>🔧 Rekomendasi Teknisi Perbaikan Mesin 🔧</h1>"
